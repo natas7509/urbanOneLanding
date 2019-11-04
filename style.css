@@ -6,7 +6,7 @@ body {
 }
 
 .banner {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background: url('img/uhMain.png') no-repeat center center/cover;
 }
@@ -62,7 +62,7 @@ body {
 @media (min-width: 768px) {
 
     .banner {
-        /* height: 100vh; */
+        height: 100%;
         width: 100%;
         background: url('img/uhMain.png') no-repeat center center/cover;
     }
@@ -106,5 +106,12 @@ body {
     .fourty {
         width: 80%;
         margin-bottom: 1.5em;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    .banner {
+        height: 100%;
     }
 }
