@@ -1,93 +1,110 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap');
 
+
 body {
-    font-family: 'Roboto', sans-serif; 
+    font-family: 'Roboto', sans-serif;
 }
 
 .banner {
     height: 100vh;
     width: 100%;
-    background:url('img/uhMain.png') no-repeat center center/cover;
+    background: url('img/uhMain.png') no-repeat center center/cover;
 }
 
-.banner .lead {
-    height: 40vh; 
-    width: 80%;
-     background:url('img/TT@2x.png') no-repeat center center/contain; 
-     
-     /* border: black 2px solid; */
-}
-  
- .banner .info {
-    color: #f4f4f4;
-    font-weight: 300;
-    /* letter-spacing: 1px; */
-    text-transform: uppercase;
-    font-size: 1.6em;
-    margin-bottom: 2em;
-} 
-
- .date {
-   width: 75%;
-   border: black 2px solid;
-   margin: 0 2em 0 0;
-}
-.cta {
-    width: 50%;
-    border: black 2px solid;
- }
- .airing {
-    width: 25%;
-    border: black 2px solid;
-    
- }
-
-.fourty {
-    border: black 2px solid;
-    width: 75%;
-    
-    
-} 
-.cta-box {
-     /* background-color: #f4f4f4; */
-     float: left;
-     
-} 
-/*
-.cta {
-    width: 50%;
-}
-
-.airing {
-    width: 50%;
-}
-
-
-
-/* .col-5{
-    border: black 2px solid;
-}
-
-.fourty {
-     border: black 2px solid;
-     
-} */
-
-/* .banner .date {
-    width: 100%;
-    margin: 0 6rem 1em 0;
-    border: black 2px solid;
-}
-
-.banner .cta {
-    width: 60%;
+.banner .title {
+    width: 67%;
     margin-bottom: 1em;
 }
 
-.banner .tvOne {
-    width: 50%;
-} */
+.banner .info p {
+    color: #f4f4f4;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.1em;
+    padding: 0 1em;
+    /* margin-bottom: 3em; */
+}
+
+.fourty {
+    width: 80%;
+    margin-bottom: 2em;
+}
+
+.date {
+    width: 100%;
+    margin: 0;
+}
+
+.cta {
+    padding: 1em;
+    /* width: 100%; */
+}
+
+
+.airing {
+    display: block;
+    width: 35%;
+    margin: auto;
+    padding: 1em;
+}
 
 
 
- 
+.copyright {
+    color: #f4f4f4;
+    padding: 1em;
+    font-size: .7em;
+}
+
+/* IPAD AND UP */
+
+@media (min-width: 768px) {
+
+    .banner {
+        /* height: 100vh; */
+        width: 100%;
+        background: url('img/uhMain.png') no-repeat center center/cover;
+    }
+
+    .banner .title {
+        width: 67%;
+        margin-bottom: 1em;
+    }
+
+
+    .banner .info p {
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 1.4px;
+        font-size: 1.5em;
+        padding: 0 1em;
+        margin-bottom: 1em;
+    }
+
+    .fourty {
+        width: 60%;
+        margin-bottom: 1.5em;
+    }
+
+    .cta {
+        width: 45%;
+    }
+
+    .airing {
+        width: 40%;
+    }
+
+    .copyright {
+        font-size: .9em;
+        letter-spacing: 1px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .fourty {
+        width: 80%;
+        margin-bottom: 1.5em;
+    }
+}
