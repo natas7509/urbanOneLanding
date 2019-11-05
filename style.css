@@ -1,65 +1,69 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap');
 
+@media (min-width: 300px) {
 
-body {
-    font-family: 'Roboto', sans-serif;
-    overflow-x: hidden;
+
+    body {
+        font-family: 'Roboto', sans-serif;
+        overflow-x: hidden;
+    }
+
+    /* ======== MOBILE FIRST BUILD OUT========================= */
+    .banner {
+        height: 100vh;
+        background: url('img/uhMain.png') no-repeat center center/cover;
+    }
+
+    .banner .title {
+        /* width: 67%; */
+        margin-bottom: 1em;
+    }
+
+    .banner .info p {
+        color: #f4f4f4;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        /* padding: 0 1em; */
+    }
+
+    .fourty {
+        /* width: 80%; */
+        margin-bottom: 2em;
+    }
+
+    .cta {
+        padding: 1em;
+    }
+
+
+    .airing {
+        display: block;
+        width: 35%;
+        margin: auto;
+        padding: 1em;
+    }
+
+    .copyright {
+        color: #f4f4f4;
+        padding: 1em;
+        font-size: .7em;
+    }
+
 }
 
-/* ======== MOBILE FIRST BUILD OUT========================= */
-.banner {
-    height: 100vh;
-    background: url('img/uhMain.png') no-repeat center center/cover;
-}
-
-.banner .title {
-    width: 67%;
-    margin-bottom: 1em;
-}
-
-.banner .info p {
-    color: #f4f4f4;
-    font-weight: 300;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 1.1em;
-    padding: 0 1em;
-}
-
-.fourty {
-    width: 80%;
-    margin-bottom: 2em;
-}
-
-.date {
-    width: 100%;
-    margin: 0;
-}
-
-.cta {
-    padding: 1em;
-}
 
 
-.airing {
-    display: block;
-    width: 35%;
-    margin: auto;
-    padding: 1em;
-}
-
-.copyright {
-    color: #f4f4f4;
-    padding: 1em;
-    font-size: .7em;
-}
 
 /*===== IPAD AND UP ========================*/
+@media (min-width: 767px) {
+    .banner {
+        height: 100vh;
+    }
 
-@media (min-width: 768px) {
     .banner .title {
-        width: 67%;
-        margin-bottom: 1em;
+        /* width: 80%; */
+        /* margin-bottom: 1em; */
     }
 
 
@@ -67,39 +71,52 @@ body {
         font-weight: 300;
         text-transform: uppercase;
         letter-spacing: 1.4px;
-        font-size: 1.5em;
+        font-size: 1.1em;
         padding: 0 1em;
-        margin-bottom: 1em;
+        margin-top: -1em;
     }
 
     .fourty {
-        width: 60%;
+        /* width: 65%; */
         margin-bottom: 1.5em;
     }
 
     .date {
         width: 90%;
         padding: 0 1em;
+
     }
 
     .cta {
         width: 45%;
+        margin-top: -1em;
     }
 
     .airing {
-        width: 40%;
+        margin-top: -1.5em;
     }
 
     .copyright {
-        font-size: .9em;
+        font-size: .7em;
         letter-spacing: 1px;
+        margin-top: -.5em;
     }
-} 
+}
+
 
 /*====== Large devices (desktops, 992px and up) ===============*/
- @media (min-width: 992px) {
+/* @media (min-width: 992px) {
     .fourty {
         width: 80%;
         margin-bottom: 1.5em;
     }
-} 
+    
+}
+
+/*====== Large devices (desktops, 992px and up) ===============*/
+/* @media (min-width: 992px) {
+    .fourty {
+        width: 80%;
+        margin-bottom: 1.5em;
+    }
+}  */
