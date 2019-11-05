@@ -10,7 +10,7 @@
 
     /* ======== MOBILE FIRST BUILD OUT========================= */
     .banner {
-        height: 100vh;
+        /* height: 100vh; */
         background: url('img/uhMain.png') no-repeat center center/cover;
     }
 
@@ -56,15 +56,10 @@
 
 
 /*===== IPAD AND UP ========================*/
-@media (min-width: 767px) {
-    .banner {
-        height: 100vh;
-    }
+/* @media (min-width: 767px) {
+    .banner {}
 
-    .banner .title {
-        /* width: 80%; */
-        /* margin-bottom: 1em; */
-    }
+    .banner .title {}
 
 
     .banner .info p {
@@ -73,35 +68,18 @@
         letter-spacing: 1.4px;
         font-size: 1.1em;
         padding: 0 1em;
-        margin-top: -1em;
     }
 
-    .fourty {
-        /* width: 65%; */
-        margin-bottom: 1.5em;
-    }
+    .fourty {}
 
-    .date {
-        width: 90%;
-        padding: 0 1em;
+    .date {}
 
-    }
+    .cta {}
 
-    .cta {
-        width: 45%;
-        margin-top: -1em;
-    }
+    .airing {}
 
-    .airing {
-        margin-top: -1.5em;
-    }
-
-    .copyright {
-        font-size: .7em;
-        letter-spacing: 1px;
-        margin-top: -.5em;
-    }
-}
+    .copyright {}
+} */
 
 
 /*====== Large devices (desktops, 992px and up) ===============*/
