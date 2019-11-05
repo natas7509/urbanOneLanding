@@ -1,21 +1,57 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap');
 
-@media (min-width: 300px) {
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background: url('img/uhMain.png') no-repeat center center/cover;
+}
+
+.col-md-10 {
+    margin: 0;
+}
+
+/*
+.banner .title {
+    width: 70%;
+    margin-bottom: 1em;
+}
+
+.banner .info p {
+    color: #f4f4f4;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.fourty {
+    width: 75%;
+}
+
+.cta {
+    width: 60%;
+}
 
 
-    body {
-        font-family: 'Roboto', sans-serif;
-        overflow-x: hidden;
-    }
+.airing {
+    width: 40%;
+}
 
-    /* ======== MOBILE FIRST BUILD OUT========================= */
-    .banner {
-        /* height: 100vh; */
+.copyright {
+    color: #f4f4f4;
+    font-size: .7em;
+} */
+
+/* ======== MOBILE========================= */
+/* .banner {
         background: url('img/uhMain.png') no-repeat center center/cover;
     }
 
     .banner .title {
-        /* width: 67%; */
         margin-bottom: 1em;
     }
 
@@ -24,11 +60,9 @@
         font-weight: 300;
         text-transform: uppercase;
         letter-spacing: 1px;
-        /* padding: 0 1em; */
     }
 
     .fourty {
-        /* width: 80%; */
         margin-bottom: 2em;
     }
 
@@ -50,7 +84,7 @@
         font-size: .7em;
     }
 
-}
+} */
 
 
 
