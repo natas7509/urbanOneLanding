@@ -3,8 +3,10 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 
+/* ======== MOBILE FIRST BUILD OUT========================= */
 .banner {
     height: 100vh;
     background: url('img/uhMain.png') no-repeat center center/cover;
@@ -36,7 +38,6 @@ body {
 
 .cta {
     padding: 1em;
-    /* width: 100%; */
 }
 
 
@@ -47,15 +48,13 @@ body {
     padding: 1em;
 }
 
-
-
 .copyright {
     color: #f4f4f4;
     padding: 1em;
     font-size: .7em;
 }
 
-/* IPAD AND UP */
+/*===== IPAD AND UP ========================*/
 
 @media (min-width: 768px) {
     .banner .title {
@@ -78,6 +77,11 @@ body {
         margin-bottom: 1.5em;
     }
 
+    .date {
+        width: 90%;
+        padding: 0 1em;
+    }
+
     .cta {
         width: 45%;
     }
@@ -90,12 +94,12 @@ body {
         font-size: .9em;
         letter-spacing: 1px;
     }
-}
+} 
 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
+/*====== Large devices (desktops, 992px and up) ===============*/
+ @media (min-width: 992px) {
     .fourty {
         width: 80%;
         margin-bottom: 1.5em;
     }
-}
+} 
