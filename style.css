@@ -10,10 +10,9 @@ body {
     background: url('img/uhMain.png') no-repeat center center/cover;
 }
 
-.fourty {
-
-    /* width: 75%; */
-}
+/* .fourty {
+    width: 75%;
+} */
 
 /* .right-column {
     flex-direction: column;
@@ -44,6 +43,42 @@ body {
     letter-spacing: 1px;
     margin-top: 1rem;
 }
+
+
+/* ======== 576 =============== */
+@media (min-width: 576px) {
+
+    .banner .lead {
+        font-size: 1.3rem;
+        color: #f4f4f4;
+        padding: 0 1rem;
+        /* letter-spacing: 3px; */
+    }
+
+    .fourty {
+        width: 70%;
+        margin-bottom: 1rem;
+    }
+
+    .date {
+        padding: 0 3rem;
+    }
+
+    .cta {
+        /* width: 50%; */
+    }
+
+    .airing {
+        /* width: 25%; */
+    }
+}
+
+
+
+
+
+
+
 
 /* .banner .title {
     margin-bottom: 1em;
