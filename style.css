@@ -23,11 +23,11 @@ body {
 }
 
 .cta {
-    /* width: 50%; */
+    width: 50%;
 }
 
 .airing {
-    /* width: 25%; */
+    width: 25%;
 }
 
 .banner .lead {
@@ -53,9 +53,8 @@ body {
 
     .banner .lead {
         font-size: 1.3rem;
-        color: #f4f4f4;
         padding: 0 1rem;
-        /* letter-spacing: 3px; */
+
     }
 
     .fourty {
@@ -68,117 +67,46 @@ body {
 
     }
 
-    .cta {}
+    .cta {
+        width: 50%;
+    }
 
-    .airing {}
+    .airing {
+        width: 25%;
+    }
 
     .copyright {
         font-size: .7rem;
     }
 }
 
+/* ======== 768 =============== */
 
 
+@media (min-width: 768px) {
 
-
-
-
-
-/* .banner .title {
-    margin-bottom: 1em;
-}
-
-.banner .lead {
-    font-size: 1.6em;
-    color: #f4f4f4;
-    letter-spacing: 3px;
-} 
-
-.fourty {
-   
-}
-
-.date {
-    width: 100%;
-}
-
- .airing {
-    width: 25%;
-}
-
-.cta {
-    width: 50%;
-}
-
-.copyright {
-    color: #f4f4f4;
-    font-size: .8em;
-    letter-spacing: 2px;
-}  */
-
-
-/*===== IPAD AND UP ========================*/
-/*@media (min-width: 768px) and (max-width: 992px) {
-     .fourty {
-        width: 100%;
-        padding-top: 1.5em;
-    }
-
-    .date {
-        width: 100%;
-    }
-
-    /* .cta {
-        width: 100%;
-    } 
-
-    .airing {
-        width: 100%;
-    }
-
-    .copyright {
-        margin-top: 3em;
-    }
-
-
-
-}
-
-*/
-/* ======== MOBILE========================= */
-
-/* @media (min-width: 320px) and (max-width:576px) {
     .banner .lead {
-        font-size: 1em;
-    }
+        font-size: 1.9rem;
+        color: #f4f4f4;
+        padding: 2rem 0;
 
-    .banner .title {
-        margin-bottom: -25px;
     }
 
     .fourty {
-        width: 75%;
-        margin-top: -40px;
-
+        width: 50%;
     }
 
     .date {
-        width: 100%;
-        padding: 2em 2em 0 2em;
+        width: 75%;
     }
 
-    /* .cta {
-        display: block;
-        width: 75%;
-        margin: 0;
-
-
-    } 
-
-    .airing {
+    .cta {
         width: 40%;
     }
 
-}
+    .airing {
+        width: 20%;
+    }
 
-*/
+
+}
