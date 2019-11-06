@@ -10,8 +10,42 @@ body {
     background: url('img/uhMain.png') no-repeat center center/cover;
 }
 
-.banner .title {
-    /* width: 70%; */
+.fourty {
+
+    /* width: 75%; */
+}
+
+/* .right-column {
+    flex-direction: column;
+} */
+
+.date {
+    padding: 0 1rem;
+}
+
+.cta {
+    /* width: 50%; */
+}
+
+.airing {
+    /* width: 25%; */
+}
+
+.banner .lead {
+    font-size: 1rem;
+    color: #f4f4f4;
+    padding: 0 1rem;
+    /* letter-spacing: 3px; */
+}
+
+.copyright {
+    color: #f4f4f4;
+    font-size: .5rem;
+    letter-spacing: 1px;
+    margin-top: 1rem;
+}
+
+/* .banner .title {
     margin-bottom: 1em;
 }
 
@@ -19,17 +53,17 @@ body {
     font-size: 1.6em;
     color: #f4f4f4;
     letter-spacing: 3px;
-}
+} 
 
 .fourty {
-    width: 75%;
+   
 }
 
 .date {
     width: 100%;
 }
 
-.airing {
+ .airing {
     width: 25%;
 }
 
@@ -41,12 +75,12 @@ body {
     color: #f4f4f4;
     font-size: .8em;
     letter-spacing: 2px;
-}
+}  */
 
 
 /*===== IPAD AND UP ========================*/
-@media (min-width: 768px) and (max-width: 992px) {
-    .fourty {
+/*@media (min-width: 768px) and (max-width: 992px) {
+     .fourty {
         width: 100%;
         padding-top: 1.5em;
     }
@@ -57,7 +91,7 @@ body {
 
     /* .cta {
         width: 100%;
-    } */
+    } 
 
     .airing {
         width: 100%;
@@ -71,9 +105,10 @@ body {
 
 }
 
+*/
 /* ======== MOBILE========================= */
 
-@media (min-width: 320px) and (max-width:576px) {
+/* @media (min-width: 320px) and (max-width:576px) {
     .banner .lead {
         font-size: 1em;
     }
@@ -99,10 +134,12 @@ body {
         margin: 0;
 
 
-    } */
+    } 
 
     .airing {
         width: 40%;
     }
 
 }
+
+*/
