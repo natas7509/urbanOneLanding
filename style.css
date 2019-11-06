@@ -21,95 +21,88 @@ body {
     letter-spacing: 3px;
 }
 
+.fourty {
+    width: 75%;
+}
+
+.date {
+    width: 100%;
+}
+
+.airing {
+    width: 25%;
+}
+
+.cta {
+    width: 50%;
+}
+
 .copyright {
     color: #f4f4f4;
     font-size: .8em;
     letter-spacing: 2px;
 }
 
-/* ======== MOBILE========================= */
-/* .banner {
-        background: url('img/uhMain.png') no-repeat center center/cover;
-    }
 
-    .banner .title {
-        margin-bottom: 1em;
-    }
-
-    .banner .info p {
-        color: #f4f4f4;
-        font-weight: 300;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-    }
-
+/*===== IPAD AND UP ========================*/
+@media (min-width: 768px) and (max-width: 992px) {
     .fourty {
-        margin-bottom: 2em;
+        width: 100%;
+        padding-top: 1.5em;
     }
 
-    .cta {
-        padding: 1em;
+    .date {
+        width: 100%;
     }
 
+    /* .cta {
+        width: 100%;
+    } */
 
     .airing {
-        display: block;
-        width: 35%;
-        margin: auto;
-        padding: 1em;
+        width: 100%;
     }
 
     .copyright {
-        color: #f4f4f4;
-        padding: 1em;
-        font-size: .7em;
+        margin-top: 3em;
     }
 
-} */
 
 
-
-
-/*===== IPAD AND UP ========================*/
-/* @media (min-width: 767px) {
-    .banner {}
-
-    .banner .title {}
-
-
-    .banner .info p {
-        font-weight: 300;
-        text-transform: uppercase;
-        letter-spacing: 1.4px;
-        font-size: 1.1em;
-        padding: 0 1em;
-    }
-
-    .fourty {}
-
-    .date {}
-
-    .cta {}
-
-    .airing {}
-
-    .copyright {}
-} */
-
-
-/*====== Large devices (desktops, 992px and up) ===============*/
-/* @media (min-width: 992px) {
-    .fourty {
-        width: 80%;
-        margin-bottom: 1.5em;
-    }
-    
 }
 
-/*====== Large devices (desktops, 992px and up) ===============*/
-/* @media (min-width: 992px) {
-    .fourty {
-        width: 80%;
-        margin-bottom: 1.5em;
+/* ======== MOBILE========================= */
+
+@media (min-width: 320px) and (max-width:576px) {
+    .banner .lead {
+        font-size: 1em;
     }
-}  */
+
+    .banner .title {
+        margin-bottom: -25px;
+    }
+
+    .fourty {
+        width: 75%;
+        margin-top: -40px;
+
+    }
+
+    .date {
+        width: 100%;
+        padding: 2em 2em 0 2em;
+    }
+
+    /* .cta {
+        display: block;
+        width: 75%;
+        margin: 0;
+
+
+    } */
+
+    .airing {
+        width: 40%;
+    }
+
+}
