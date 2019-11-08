@@ -2,13 +2,18 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    overflow-x: hidden;
-    /* font-size: 4vw; */
+    /* overflow-x: hidden; */
+    display: flex;
+    height: 100vh;
+    background-color: #553694;
 }
 
 .banner {
-    height: 100vh;
+
+    /* height: 100%; */
+
     background: url('img/uhMain.png') no-repeat center center/cover;
+
 }
 
 .banner .title {
@@ -112,6 +117,10 @@ body {
 }
 
 @media (min-width: 992px) {
+
+    .banner {
+        height: 100vh;
+    }
 
     .banner .lead {
         font-size: 2vw;
