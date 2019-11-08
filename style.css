@@ -156,6 +156,10 @@ body {
 
 
 @media (min-width: 1600px) {
+    /* .banner .title {
+        width: 100%;
+    } */
+
     .banner .lead {
         font-size: 1.8vw;
         color: #f4f4f4;
