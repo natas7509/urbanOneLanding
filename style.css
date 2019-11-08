@@ -3,11 +3,18 @@
 body {
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
+    /* font-size: 4vw; */
 }
 
 .banner {
     height: 100vh;
     background: url('img/uhMain.png') no-repeat center center/cover;
+}
+
+.banner .lead {
+    font-size: 3vw;
+    color: #f4f4f4;
+    padding: 0 1rem;
 }
 
 .fourty {
@@ -30,13 +37,6 @@ body {
     width: 25%;
 }
 
-.banner .lead {
-    font-size: 1rem;
-    color: #f4f4f4;
-    padding: 0 1rem;
-    /* letter-spacing: 3px; */
-}
-
 .copyright {
     color: #f4f4f4;
     font-size: .5rem;
@@ -51,10 +51,9 @@ body {
         height: 100vh;
     }
 
-    .banner .lead {
-        font-size: 1.3rem;
+    .banner .lead p {
+        /* font-size: 1.3rem; */
         padding: 0 1rem;
-
     }
 
     .fourty {
@@ -86,9 +85,9 @@ body {
 @media (min-width: 768px) {
 
     .banner .lead {
-        font-size: 1.9rem;
+        /* font-size: 1.9rem; */
         color: #f4f4f4;
-        padding: 2rem 0;
+        padding: 2rem;
 
     }
 
@@ -108,5 +107,46 @@ body {
         width: 20%;
     }
 
+
+}
+
+@media (min-width: 992px) {
+
+    .banner .lead {
+        /* font-size: 1.9rem; */
+        font-size: 2vw;
+
+        color: #f4f4f4;
+        padding: 2rem 3rem;
+
+    }
+
+    .fourty {
+        width: 80%;
+        float: right;
+        margin: 0;
+    }
+
+    .date {
+        width: 100%;
+    }
+
+    .cta {
+        width: 50%;
+    }
+
+    .airing {
+        width: 30%;
+    }
+
+
+}
+
+
+@media (min-width: 1600px) {
+    .copyright {
+        /* font-size: 1vw; */
+        margin-top: -.5rem;
+    }
 
 }
