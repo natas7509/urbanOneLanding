@@ -2,7 +2,6 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    /* overflow-x: hidden; */
     display: flex;
     height: 100vh;
     background-color: #553694;
@@ -49,23 +48,19 @@ body {
 /* LANDSCAPE FOR MOBILE */
 @media (max-height: 500px) {
     .col-xl-8 .title {
-        /* border: 1px solid #000; */
         width: 60%;
     }
 
     .banner .lead p {
         font-size: 2vw;
-        /* letter-spacing: .7px; */
     }
 
     .col-sm-5 .fourty {
-        /* border: 1px solid #000; */
         width: 80%;
         margin: 0;
     }
 
     .col-lg-6 {
-        /* border: 1px solid #000; */
         width: 75%;
     }
 
@@ -81,32 +76,8 @@ body {
         font-size: .5rem;
         padding: 0;
         margin: 0;
-        /* border: 1px solid #000; */
     }
 
-
-
-
-
-
-
-
-    /* .date {
-        padding: 0 3rem;
-
-    }
-
-    .cta {
-        width: 50%;
-    }
-
-    .airing {
-        width: 25%;
-    }
-
-    .copyright {
-        font-size: .7rem;
-    } */
 }
 
 
@@ -117,7 +88,6 @@ body {
     }
 
     .banner .lead p {
-        /* font-size: 1.3rem; */
         padding: 0 1rem;
     }
 
@@ -150,7 +120,6 @@ body {
 @media (min-width: 768px) {
 
     .banner .lead {
-        /* font-size: 1.9rem; */
         color: #f4f4f4;
         padding: 2rem;
 
@@ -184,7 +153,6 @@ body {
     .banner .lead {
         font-size: 2vw;
         color: #f4f4f4;
-        /* padding: 2rem 3rem; */
         margin-top: -2rem;
 
     }
