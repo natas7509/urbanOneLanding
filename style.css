@@ -9,11 +9,7 @@ body {
 }
 
 .banner {
-
-    /* height: 100%; */
-
     background: url('img/uhMain.png') no-repeat center center/cover;
-
 }
 
 .banner .title {
@@ -125,7 +121,8 @@ body {
     .banner .lead {
         font-size: 2vw;
         color: #f4f4f4;
-        padding: 2rem 3rem;
+        /* padding: 2rem 3rem; */
+        margin-top: -2rem;
 
     }
 
@@ -148,27 +145,8 @@ body {
     }
 
     .copyright {
-        margin-top: 6rem;
+        margin-top: 1rem;
     }
 
-
-}
-
-
-@media (min-width: 1600px) {
-    /* .banner .title {
-        width: 100%;
-    } */
-
-    .banner .lead {
-        font-size: 1.8vw;
-        color: #f4f4f4;
-        padding: 2rem 3rem;
-
-    }
-
-    .copyright {
-        margin-top: 2rem;
-    }
 
 }
